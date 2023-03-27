@@ -2,7 +2,7 @@
 
 > A comprehensive repository of awesome ***Scene Text Image Super-Resolution (STISR)*** methods based on deep learning.
 
-[toc]
+
 
 ## Papers
 
