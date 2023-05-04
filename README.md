@@ -8,6 +8,7 @@
 
 | *Year* |    *Venue*     |                           *Title*                            |                            *Repo*                            |      *Dataset*      |
 | :----: | :------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-----------------: |
+|  2023  |     TCSVT      | [Text-Enhanced Scene Image Super-Resolution via Stroke Mask and Orthogonal Attention](https://ieeexplore.ieee.org/document/10102515) |                                                              |      TextZoom       |
 |  2023  |      AAAI      | [Improving Scene Text Image Super-Resolution via Dual Prior Modulation Network](https://arxiv.org/pdf/2302.10414) |           [Code](https://github.com/jdfxzzy/DPMN)            |      TextZoom       |
 |  2023  |      TIP       | [Text prior guided scene text image super-resolution](https://github.com/yfaqh/Awesome-Papers/blob/main/cv/sr/stisr/TIP2023_TPGSR.pdf) |       [Code](https://github.com/mjq11302010044/TPGSR)        |      TextZoom       |
 |  2023  |     arXiv      | [Scene Text Image Super-Resolution via Content Perceptual Loss and Criss-Cross Transformer Blocks](https://arxiv.org/pdf/2210.06924.pdf)* |                                                              |      TextZoom       |
@@ -29,6 +30,45 @@
 
 - The "@￥" means that the paper has been **Accepted** by ￥.
 - The "*" means that the work involves **Vision Transformer** for STISR.
+
+
+
+## Quantitative Results
+
+<table align="center">
+    <tr>
+    	<th rowspan="2">Method</th>
+        <th rowspan="2">Year</th>
+        <th rowspan="2">Venue</th>
+	    <th colspan="4">Accuracy of ASTER</th>
+	</tr>
+	<tr>
+  		<td>easy</td>
+  		<td>medium</td>
+  		<td>hard</td>
+	    <td>weighted-avg</td>
+	</tr>
+    <tr>
+        <td>TSRN</td>
+        <td>2020</td>
+        <td>ECCV</td>
+  		<td>75.1%</td>
+  		<td>56.3%</td>
+  		<td>40.1%</td>
+	    <td>58.3%</td>
+	</tr>
+    <tr>
+        <td>TEAN</td>
+        <td>2023</td>
+        <td>TCSVT</td>
+  		<td>80.4%</td>
+  		<td>64.5%</td>
+  		<td>45.6%</td>
+	    <td>64.6%</td>
+	</tr>
+</table>
+
+- Accuracy of different methods using ASTER in the Textzoom dataset.
 
 
 
